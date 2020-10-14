@@ -1,0 +1,36 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://drumgizmo.org/lv2> ;
+	state:state [
+		<http://drumgizmo.org/lv2/atom#config> """PGNvbmZpZyB2ZXJzaW9uPSIxLjAiPgogIDx2YWx1ZSBuYW1lPSJkcnVta2l0ZmlsZSI+L2hvbWUv
+Y2doYW1tZXIvTXVzaWMvRFJTS2l0L0RSU0tpdF9mdWxsLnhtbDwvdmFsdWU+CiAgPHZhbHVlIG5h
+bWU9Im1pZGltYXBmaWxlIj4vaG9tZS9jZ2hhbW1lci9NdXNpYy9EUlNLaXQvRFJTS2l0X2Z1bGwu
+eG1sPC92YWx1ZT4KICA8dmFsdWUgbmFtZT0iZW5hYmxlX3ZlbG9jaXR5X21vZGlmaWVyIj50cnVl
+PC92YWx1ZT4KICA8dmFsdWUgbmFtZT0idmVsb2NpdHlfbW9kaWZpZXJfZmFsbG9mZiI+MC41MDAw
+MDA8L3ZhbHVlPgogIDx2YWx1ZSBuYW1lPSJ2ZWxvY2l0eV9tb2RpZmllcl93ZWlnaHQiPjAuMjUw
+MDAwPC92YWx1ZT4KICA8dmFsdWUgbmFtZT0idmVsb2NpdHlfc3RkZGV2Ij4xLjAwMDAwMDwvdmFs
+dWU+CiAgPHZhbHVlIG5hbWU9InNhbXBsZV9zZWxlY3Rpb25fZl9jbG9zZSI+MC41MDAwMDA8L3Zh
+bHVlPgogIDx2YWx1ZSBuYW1lPSJzYW1wbGVfc2VsZWN0aW9uX2ZfZGl2ZXJzZSI+MC4yMDAwMDA8
+L3ZhbHVlPgogIDx2YWx1ZSBuYW1lPSJzYW1wbGVfc2VsZWN0aW9uX2ZfcmFuZG9tIj4wLjEwMDAw
+MDwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImVuYWJsZV92ZWxvY2l0eV9yYW5kb21pc2VyIj5mYWxz
+ZTwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9InZlbG9jaXR5X3JhbmRvbWlzZXJfd2VpZ2h0Ij4wLjEw
+MDAwMDwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImVuYWJsZV9yZXNhbXBsaW5nIj50cnVlPC92YWx1
+ZT4KICA8dmFsdWUgbmFtZT0iZGlza19jYWNoZV91cHBlcl9saW1pdCI+MTA3Mzc0MTgyNDwvdmFs
+dWU+CiAgPHZhbHVlIG5hbWU9ImRpc2tfY2FjaGVfY2h1bmtfc2l6ZSI+MTA0ODU3NjwvdmFsdWU+
+CiAgPHZhbHVlIG5hbWU9ImRpc2tfY2FjaGVfZW5hYmxlIj50cnVlPC92YWx1ZT4KICA8dmFsdWUg
+bmFtZT0iZW5hYmxlX2JsZWVkX2NvbnRyb2wiPmZhbHNlPC92YWx1ZT4KICA8dmFsdWUgbmFtZT0i
+bWFzdGVyX2JsZWVkIj4xLjAwMDAwMDwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImVuYWJsZV9sYXRl
+bmN5X21vZGlmaWVyIj5mYWxzZTwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImxhdGVuY3lfbGFpZF9i
+YWNrX21zIj4wLjAwMDAwMDwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImxhdGVuY3lfc3RkZGV2Ij4y
+LjAwMDAwMDwvdmFsdWU+CiAgPHZhbHVlIG5hbWU9ImxhdGVuY3lfcmVnYWluIj4wLjkwMDAwMDwv
+dmFsdWU+CjwvY29uZmlnPg=="""^^xsd:base64Binary
+	] .
+
